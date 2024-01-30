@@ -20,8 +20,8 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/stats-preview-card-component-4thGx7DsIJ)
-- Live Site URL: [Hosted on GitHub Pages](https://filipjanik00.github.io/stats-preview-card-component-main/)
+- Solution URL: [Frontend Mentor IO Solution](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-using-tailwind-css-30MVRSpIzm)
+- Live Site URL: [Hosted on GitHub Pages](https://filipjanik00.github.io/base-apparel-page/)
 
 ## My process
 
