@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body class="font-main h-screen md:flex relative">
+    <!-- Header Logo -->
+    <header
+      class="self-start px-6 py-8 md:absolute md:left-10 md:mt-10 xl:left-[11.5rem]"
+    >
+      <img src="./images/logo.svg" alt="Base Apparel Logo" class="h-6 md:h-8" />
+    </header>
+
+    <!-- Hero Section -->
+    <section class="flex-grow flex flex-col-reverse md:flex-row">
+      <!-- Text Section -->
+      <div
+        class="mt-10 text-center px-4 md:w-1/2 lg:w-3/5 md:text-left md:p-16 md:flex md:flex-col md:justify-center xl:p-52"
+      >
+        <h1
+          class="font-light text-desaturatedRed text-5xl uppercase tracking-widest md:leading-[1.5] lg:max-w-xs lg:text-6xl lg:leading-[1.1] xl:tracking-[0.2em] xl:mt-8"
+        >
+          We're <br /><span class="font-normal text-black">coming soon</span>
+        </h1>
+        <p
+          class="mt-4 text-desaturatedRed font-normal lg:max-w-xl xl:mt-6 xl:my-6"
+        >
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <form action="#" id="form" class="mt-6 relative w-full h-[40px] pb-24">
+          <div class="form-control">
+            <input
+              class="input mx-auto relative focus:outline-none w-full px-6 py-3 border-[1px] border-solid border-lightPink rounded-full font-normal placeholder-opacity-50 text-desaturatedRed placeholder-desaturatedRed"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <button type="submit" class="cursor-pointer">
+              <img
+                src="./images/icon-arrow.svg"
+                alt="Arrow Button Icon"
+                class="bg-lightRed shadow-2xl absolute top-[0px] right-0 py-[15px] px-7 rounded-full hover:bg-rose-300 transition"
+              />
+              <small class="hidden text-red-600 ml-2 xl:text-lg pt-2"
+                >Please provide a valid email!</small
+              >
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- Image -->
+      <div class="md:w-1/2 lg:w-2/5 h-full">
+        <!-- Desktop Image -->
+        <img
+          src="./images/hero-desktop.jpg"
+          class="hidden md:block w-full h-full object-center"
+          alt="Desktop Image"
+        />
+
+        <!-- Mobile Image -->
+        <img
+          src="./images/hero-mobile.jpg"
+          class="md:hidden w-full h-full object-cover"
+          alt="Mobile Image"
+        />
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
